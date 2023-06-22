@@ -3,7 +3,6 @@
   "rules": {
     "indent": ["error", 2],
     "no-console": "error",
-    "no-unused-vars": "off",
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "no-undef": "error",
@@ -11,6 +10,7 @@
     "comma-dangle": ["error", "always-multiline"],
     "no-trailing-spaces": "error",
     "eol-last": ["error", "always"],
-    "no-multiple-empty-lines": ["error", { "max": 1 }]
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }]
   }
 }
